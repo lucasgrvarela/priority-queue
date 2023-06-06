@@ -24,6 +24,7 @@ Length of the priority queue is: 3
 Processing task with Priority: 3, ID: 0, Description: 'Do A'
 Processing task with Priority: 2, ID: 2, Description: 'Do C'
 Processing task with Priority: 1, ID: 1, Description: 'Do B'
+Length of the priority queue is: 0
 ```
 
 Note: The methods Len(), Less(), Swap(), Push() and Pop() are implemented to satisfy the [heap.Interface](https://pkg.go.dev/container/heap#Interface)

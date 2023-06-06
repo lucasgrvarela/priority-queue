@@ -65,4 +65,6 @@ func main() {
 		task := heap.Pop(&pq).(*Task)
 		fmt.Printf("Processing task with Priority: %d, ID: %d, Description: '%s' \n", task.Priority, task.ID, task.Description)
 	}
+
+	fmt.Println("Length of the priority queue is:", pq.Len())
 }
